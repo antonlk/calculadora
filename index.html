@@ -6,38 +6,40 @@
 		<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" type="text/css">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<script src="bower_components/jquery/dist/jquery.min.js"></script>
+		<script src="calculadora.js"></script>
 	</head>
 	<body>
 
 <div class="container-fluid">
 		<form class="form-horizontal col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4 col-xs-10 col-xs-offset-1 text-align-center">
 			<div class="form-group">
-				<input type="text" class="form-control" disabled="disabled" id="screen">
+				<input type="text" class="form-control text-center" disabled="disabled" id="screen">
 			</div>	
 
 			<div class="form-group text-center">
-				<input type="button" class ="btn-lg btn-primary" value="1">
-				<input type="button" class ="btn-lg btn-primary" value="2">
-				<input type="button" class ="btn-lg btn-primary" value="3">
-				<input type="button" class ="btn-lg btn-danger" value="C">
+				<input type="button" class ="btn-lg btn-primary" value="1" id="1">
+				<input type="button" class ="btn-lg btn-primary" value="2" id="2">
+				<input type="button" class ="btn-lg btn-primary" value="3" id="3">
+				<input type="button" class ="btn-lg btn-danger" value="C" id="borrar">
 			</div>
 
 			<div class="form-group text-center">
-				<input type="button" class ="btn-lg btn-primary" value="4">
-				<input type="button" class ="btn-lg btn-primary" value="5">
-				<input type="button" class ="btn-lg btn-primary" value="6">
-				<input type="button" class ="btn-lg btn-primary" value="+">
+				<input type="button" class ="btn-lg btn-primary" value="4" id="4">
+				<input type="button" class ="btn-lg btn-primary" value="5" id="5">
+				<input type="button" class ="btn-lg btn-primary" value="6" id="6">
+				<input type="button" class ="btn-lg btn-primary" value="+" id="mas">
 			</div>
 
 			<div class="form-group text-center">
-				<input type="button" class ="btn-lg btn-primary" value="7">
-				<input type="button" class ="btn-lg btn-primary" value="8">
-				<input type="button" class ="btn-lg btn-primary" value="9">
-				<input type="button" class ="btn-lg btn-primary" value="-">
+				<input type="button" class ="btn-lg btn-primary" value="7" id="7">
+				<input type="button" class ="btn-lg btn-primary" value="8" id="8">
+				<input type="button" class ="btn-lg btn-primary" value="9" id="9">
+				<input type="button" class ="btn-lg btn-primary" value="-" id="menos">
 			</div>
 
 			<div class="form-group text-center">
-				<input type="button" class ="btn-lg btn-success btn-block " value="=">
+				<input type="button" class ="btn-lg btn-primary" style="transform:scalex(3);" value="0" id="0">
+				<input type="button" class ="btn-lg btn-success" value="=" id="igual" style="position:relative; left:50px">
 			</div>
 
 		</form>
