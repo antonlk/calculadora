@@ -1,4 +1,5 @@
 // agregamos eventos de click a todos los botones
+//esto es rama mult-div
 
 $(function () {
 	
